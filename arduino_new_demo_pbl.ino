@@ -3,10 +3,10 @@
 #include <ThingSpeak.h>
 #include <math.h>
 
-const char* ssid = "OnePlus 10R 5G";
-const char* password = "122333444";
-unsigned long channelID = 2756320;
-const char* apiKey = "HJ98F8G2001K4NQJ";
+const char* ssid = "your ssid";
+const char* password = "your password";
+unsigned long channelID = your channel id;
+const char* apiKey = "your apiKey";
 
 WiFiClient client;
 const int soundPin = A0;
@@ -80,3 +80,4 @@ void loop() {
 
     delay(50);
 }
+
